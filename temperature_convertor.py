@@ -41,9 +41,9 @@ def clear_entry():
 
 
 # Function that deals with the conversion of inputted values
-# It is used as the command that causes the covert button to function
+# It is used as the command that causes the convert button to function
 def temperature_conversion():
-    # Attempts to covert any input used in the entry fields
+    # Attempts to convert any input used in the entry fields
     try:
         # Used to convert celsius to fahrenheit
         if celsius_entry['state'] == "normal" and celsius_entry.get() != "":
